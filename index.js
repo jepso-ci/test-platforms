@@ -10,13 +10,15 @@ function Spec(spec) {
 }
 
 Spec.prototype.toString = function () {
-  if (this.version === null) return this.browser + ' running on ' + this.os;
+  var browser = this.browser;
+  if (browser === 'ie') browser = 'internet explorer';
+  if (this.version === null) return browser + ' running on ' + this.os;
   for (var i = 0; i < emulated.length; i++) {
-    if (emulated[i] == this.browser) {
-      return this.browser + ' emulator version ' + this.version + ' running on ' + this.os;
+    if (emulated[i] == browser) {
+      return browser + ' emulator version ' + this.version + ' running on ' + this.os;
     }
   }
-  return this.browser + ' version ' + this.version + ' running on ' + this.os;
+  return browser + ' version ' + this.version + ' running on ' + this.os;
 };
 var win = /Windows/;
 var lin = /Linux/;
@@ -26,6 +28,15 @@ Spec.prototype.osType = function () {
   if (lin.test(this.os)) return 'Linux';
   if (mac.test(this.os)) return 'Mac';
 };
+
+Spec.ptototype.toURL = function () {
+  return urlSafe(this.browser) + '/' + urlSafe(this.version) + '/' + urlSafe(this.os);
+}
+
+function urlSafe(text) {
+  text = text.toLowerCase();
+  return text.replace(/[ \/\\\?\.]/g, '-');
+}
 
 var browsers = exports;
 
