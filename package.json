@@ -1,0 +1,30 @@
+{
+  "name": "test-platforms",
+  "version": "1.0.0",
+  "description": "A collection of all available test platforms for SauceLabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node fetch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mocha-ci/test-platforms.git"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "ci",
+    "continuous",
+    "integration",
+    "sauce",
+    "labs",
+    "saucelabs"
+  ],
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "~2.12.0",
+    "uglify-js": "~2.2.2"
+  }
+}
