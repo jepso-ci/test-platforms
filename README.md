@@ -1,4 +1,4 @@
 test-platforms
 ==============
 
-A collection of all available platforms for SauceLabs
+A collection of all available testing platforms for SauceLabs
