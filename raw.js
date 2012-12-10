@@ -1,385 +1,385 @@
 module.exports = [ {
-    os: "Windows 2003",
-    browser: "opera",
+    platform: "Windows 2003",
+    browserName: "opera",
     version: "11"
 }, {
-    os: "Windows 2003",
-    browser: "opera",
+    platform: "Windows 2003",
+    browserName: "opera",
     version: "12"
 }, {
-    os: "Windows 2008",
-    browser: "opera",
+    platform: "Windows 2008",
+    browserName: "opera",
     version: "11"
 }, {
-    os: "Windows 2008",
-    browser: "opera",
+    platform: "Windows 2008",
+    browserName: "opera",
     version: "12"
 }, {
-    os: "Windows 2003",
-    browser: "ie",
+    platform: "Windows 2003",
+    browserName: "internet explorer",
     version: "6"
 }, {
-    os: "Windows 2003",
-    browser: "ie",
+    platform: "Windows 2003",
+    browserName: "internet explorer",
     version: "7"
 }, {
-    os: "Windows 2003",
-    browser: "ie",
+    platform: "Windows 2003",
+    browserName: "internet explorer",
     version: "8"
 }, {
-    os: "Windows 2012",
-    browser: "ie",
+    platform: "Windows 2012",
+    browserName: "internet explorer",
     version: "10"
 }, {
-    os: "Windows 2008",
-    browser: "ie",
+    platform: "Windows 2008",
+    browserName: "internet explorer",
     version: "9"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "3.0"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "3.5"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "3.6"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "4"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "5"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "6"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "7"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "8"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "9"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "10"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "11"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "12"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "13"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "14"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "15"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "16"
 }, {
-    os: "Windows 2003",
-    browser: "firefox",
+    platform: "Windows 2003",
+    browserName: "firefox",
     version: "17"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "3.0"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "3.5"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "3.6"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "4"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "5"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "6"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "7"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "8"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "9"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "10"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "11"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "12"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "13"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "14"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "15"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "16"
 }, {
-    os: "Windows 2012",
-    browser: "firefox",
+    platform: "Windows 2012",
+    browserName: "firefox",
     version: "17"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "4"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "5"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "6"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "7"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "8"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "9"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "10"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "11"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "12"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "13"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "14"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "15"
 }, {
-    os: "Windows 2008",
-    browser: "firefox",
+    platform: "Windows 2008",
+    browserName: "firefox",
     version: "16"
 }, {
-    os: "Windows 2008",
-    browser: "safari",
+    platform: "Windows 2008",
+    browserName: "safari",
     version: "5"
 }, {
-    os: "Windows 2003",
-    browser: "chrome",
+    platform: "Windows 2003",
+    browserName: "chrome",
     version: null
 }, {
-    os: "Windows 2008",
-    browser: "chrome",
+    platform: "Windows 2008",
+    browserName: "chrome",
     version: null
 }, {
-    os: "Mac 10.8",
-    browser: "ipad",
+    platform: "Mac 10.8",
+    browserName: "ipad",
     version: "5.1"
 }, {
-    os: "Mac 10.8",
-    browser: "ipad",
+    platform: "Mac 10.8",
+    browserName: "ipad",
     version: "6"
 }, {
-    os: "Mac 10.6",
-    browser: "ipad",
+    platform: "Mac 10.6",
+    browserName: "ipad",
     version: "4.3"
 }, {
-    os: "Mac 10.6",
-    browser: "ipad",
+    platform: "Mac 10.6",
+    browserName: "ipad",
     version: "5"
 }, {
-    os: "Mac 10.8",
-    browser: "chrome",
+    platform: "Mac 10.8",
+    browserName: "chrome",
     version: null
 }, {
-    os: "Mac 10.6",
-    browser: "chrome",
+    platform: "Mac 10.6",
+    browserName: "chrome",
     version: null
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "7"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "8"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "9"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "10"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "11"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "12"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "13"
 }, {
-    os: "Mac 10.6",
-    browser: "firefox",
+    platform: "Mac 10.6",
+    browserName: "firefox",
     version: "14"
 }, {
-    os: "Mac 10.8",
-    browser: "iphone",
+    platform: "Mac 10.8",
+    browserName: "iphone",
     version: "5.1"
 }, {
-    os: "Mac 10.8",
-    browser: "iphone",
+    platform: "Mac 10.8",
+    browserName: "iphone",
     version: "6"
 }, {
-    os: "Mac 10.6",
-    browser: "iphone",
+    platform: "Mac 10.6",
+    browserName: "iphone",
     version: "4.3"
 }, {
-    os: "Mac 10.6",
-    browser: "iphone",
+    platform: "Mac 10.6",
+    browserName: "iphone",
     version: "5"
 }, {
-    os: "Mac 10.6",
-    browser: "safari",
+    platform: "Mac 10.6",
+    browserName: "safari",
     version: "5"
 }, {
-    os: "Linux",
-    browser: "opera",
+    platform: "Linux",
+    browserName: "opera",
     version: "12"
 }, {
-    os: "Linux",
-    browser: "chrome",
+    platform: "Linux",
+    browserName: "chrome",
     version: null
 }, {
-    os: "Linux",
-    browser: "android",
+    platform: "Linux",
+    browserName: "android",
     version: "4"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "3.6"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "4"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "5"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "6"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "7"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "8"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "9"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "10"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "11"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "12"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "13"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "14"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "15"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "16"
 }, {
-    os: "Linux",
-    browser: "firefox",
+    platform: "Linux",
+    browserName: "firefox",
     version: "17"
 } ];
