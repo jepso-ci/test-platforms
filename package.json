@@ -1,11 +1,11 @@
 {
   "name": "test-platforms",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A collection of all available test platforms for SauceLabs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "node fetch"
+    "test": "mocha -R spec",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   "license": "MIT",
   "devDependencies": {
     "request": "~2.12.0",
-    "uglify-js": "~2.2.2"
+    "uglify-js": "~2.2.2",
+    "debug": "~0.7.0",
+    "better-assert": "~0.1.0"
   }
 }

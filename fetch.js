@@ -1,28 +1,32 @@
- var request = require('request');
+var request = require('request');
 var fs = require('fs');
+var debug = require('debug')('test-platforms:fetch');
 
-console.log('Loading data from server...')
-request('https://saucelabs.com/docs/browsers/se2'
-  , function (err, res, body) {
-    if (err) throw err;
-    if (res.statusCode != 200) throw new Error('Server responded with status code ' + res.statusCode);
+module.exports = fetch;
 
-    console.log('Parsing data...')
-    var browserString;
-    var raw = [];
-    body = body.toString().replace(/\_/g, '.').replace(/\'/g, '"');
-    body = body.split('browser-string caps');
-    for (var i = 0; i < body.length; i++) {
-      if (browserString = /strings\=\"([^\"]*)\"/.exec(body[i]))
-        parseSection(browserString[1], body[i], raw);
-    };
+function fetch(cb) {
+  debug('Loading data from server...')
+  request('https://saucelabs.com/docs/browsers/se2'
+    , function (err, res, body) {
+      if (err) return cb(err);
+      if (res.statusCode != 200) return cb(new Error('Server responded with status code ' + res.statusCode));
 
-    console.log('Writing data to file "raw.js"...');
-    fs.writeFileSync('raw.js', beautify('module.exports = ' + JSON.stringify(raw)));
+      debug('Parsing data...')
+      var browserString;
+      var raw = [];
+      body = body.toString().replace(/\_/g, '.').replace(/\'/g, '"');
+      body = body.split('browser-string caps');
+      for (var i = 0; i < body.length; i++) {
+        if (browserString = /strings\=\"([^\"]*)\"/.exec(body[i]))
+          parseSection(browserString[1], body[i], raw);
+      };
 
-    console.log('Done!');
-  });
-
+      debug('Writing data to file "raw.js"...');
+      fs.writeFileSync('raw.js', beautify('module.exports = ' + JSON.stringify(raw)));
+      debug('Done!');
+      cb();
+    });
+}
 function beautify(code) {
   var uglify = require('uglify-js');
   var ast = uglify.parse(code);

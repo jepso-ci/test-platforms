@@ -1,4 +1,3 @@
-//process.exit(0);
 var raw = require('./raw').map(function (s) { return new Spec(s); });
 
 var emulated = ['ipad', 'iphone', 'android'];
@@ -32,7 +31,11 @@ Spec.prototype.osType = function () {
 };
 
 Spec.prototype.toURL = function () {
-  return urlSafe(this.browserName) + '/' + urlSafe(this.version) + '/' + urlSafe(this.platform);
+  var parts = [];
+  if (this.browserName) parts.push(urlSafe(this.browserName));
+  if (this.version) parts.push(urlSafe(this.version));
+  if (this.platform) parts.push(urlSafe(this.platform));
+  return parts.join('/');
 }
 
 function urlSafe(text) {
