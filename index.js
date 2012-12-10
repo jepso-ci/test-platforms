@@ -29,7 +29,7 @@ Spec.prototype.osType = function () {
   if (mac.test(this.os)) return 'Mac';
 };
 
-Spec.ptototype.toURL = function () {
+Spec.prototype.toURL = function () {
   return urlSafe(this.browser) + '/' + urlSafe(this.version) + '/' + urlSafe(this.os);
 }
 
